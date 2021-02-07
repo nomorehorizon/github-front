@@ -9,9 +9,8 @@ import Repo from './pages/Repo';
 function App() {
   return (
     <BrowserRouter>
-      {/* <Header /> */}
+      <Header />
 
-      
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/:username" element={<Profile />} />
